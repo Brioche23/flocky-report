@@ -5,6 +5,35 @@
 @use 'breakpoint' as *;
 
 @font-face {
+  font-family: 'GT Maru';
+  src: local('GT Maru Bold'), local('GT-Maru-Bold'), url('/fonts/GT-Maru-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GT Maru';
+  src: local('GT Maru Medium'), local('GT-Maru-Medium'), url('/fonts/GT-Maru-Medium.woff') format('woff');
+  font-weight: medium;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GT Maru Mega';
+  src: local('GT Maru Mega Shaded'), local('GT-Maru-Mega-Shaded'),
+    url('/fonts/GT-Maru-Mega-Mini-Shaded.woff') format('woff');
+  font-weight: bold;
+  font-style: display;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'GT Maru Shaded';
+  src: local('GT Maru Shaded'), local('GT-Maru-Shaded'), url('/fonts/GT-Maru-Mega-Mini-Outline.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
   font-family: 'Open Sans';
   src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url('/fonts/OpenSans-ExtraBold.woff2') format('woff2'),
     url('/fonts/OpenSans-ExtraBold.woff') format('woff');
